@@ -1,0 +1,32 @@
+{
+  "usb": {
+      "vid": "0x385B",
+      "pid": "0x0100",
+      "device_version": "1.0.0"
+  },
+  "manufacturer": "Snugon",
+  "keyboard_name": "Snugon MO1",
+  "encoder": {
+    "rotary": [
+      {"pin_a": "GP1", "pin_b": "GP23", "resolution": 2}
+    ]
+  },
+  "layouts": {
+    "LAYOUT_basic": {
+      "layout": [
+        { "label": "M00", "x": 0,  "y": 0 },
+        { "label": "M01", "x": 1,  "y": 0 },
+        { "label": "M02", "x": 2,  "y": 0 },
+        { "label": "M03", "x": 3,  "y": 0 },
+        { "label": "M04", "x": 4,  "y": 0 },
+        { "label": "M05", "x": 5,  "y": 0 },
+        { "label": "M06", "x": 6,  "y": 0 },
+        { "label": "M07", "x": 7,  "y": 0 },
+        { "label": "M08", "x": 8,  "y": 0 },
+        { "label": "M09", "x": 9,  "y": 0 },
+        { "label": "M10", "x": 10, "y": 0 },
+        { "label": "M11", "x": 11, "y": 0 }        
+      ]
+    }
+  }
+}

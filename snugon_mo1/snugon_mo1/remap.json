@@ -1,0 +1,39 @@
+{
+  "name": "Snugon MO1",
+  "vendorId": "0x385B",
+  "productId": "0x0100",
+  "matrix": { "rows": 1, "cols": 12 },  
+  "customKeycodes": [
+    { "name": "Save Config", "title": "Save the current configuration values to EEPROM.", "shortName": "KBC_SAVE" },
+    { "name": "Type Out Config", "title": "Type out the current configuratioin values. They will be deleted after 2 seconds.", "shortName": "TYPE_OUT" },
+    { "name": "CPI 100Up", "title": "Increase the CPI by 100 (max 12000).", "shortName": "CPI_I100" },
+    { "name": "CPI 100Dn", "title": "Decrease the CPI by 100 (min 100).", "shortName": "CPI_D100" },
+    { "name": "CPI 1000Up", "title": "Increase the CPI by 1000 (max 12000).", "shortName": "CPI_I1K" },
+    { "name": "CPI 1000Dn", "title": "Decrease the CPI by 1000 (min 100).", "shortName": "CPI_D1K" },
+    { "name": "Scroll Mode To", "title": "Toggle the scroll mode.", "shortName": "SCRL_TO" },
+    { "name": "Scroll Mode Mo", "title": "Momentarily activate the scroll mode.", "shortName": "SCRL_MO" },
+    { "name": "Scroll SpeedUp", "title": "Faster the scroll mode speed (min 1).", "shortName": "SCRL_DVD" },
+    { "name": "Scroll SpeedDn", "title": "Slower the scroll mode speed (max 7).", "shortName": "SCRL_DVI" },
+    { "name": "Scroll ThresUp", "title": "Increase the horizontal scroll threshold (max 50).", "shortName": "SCRL_THI" },
+    { "name": "Scroll ThresDn", "title": "Decrease the horizontal scroll threshold (min 0).", "shortName": "SCRL_THD" },
+    { "name": "Scroll Invert", "title": "Invert the scroll mode directions.", "shortName": "SCRL_INV" },
+    { "name": "Stop Cursor", "title": "Momentarily disable the cursor movement.", "shortName": "NO_MOVE" },
+    { "name": "Polling RateUp", "title": "Increase the report rate (125 -> 250 -> 500 -> 1000).", "shortName": "RPRT_RTI" },
+    { "name": "Polling RateDn", "title": "Decrease the report rate (1000 -> 500 -> 250 -> 125).", "shortName": "RPRT_RTD" },
+    { "name": "Reset Config", "title": "Reset the configuration values.", "shortName": "KBC_RST" },
+    { "name": "Boot Loader", "title": "Activate the bootloader mode for flashing.", "shortName": "BOOT_LDR" }
+  ],  
+  "layouts" : {
+    "keymap": [
+      [{"x":7,"h":2.25},"0,5"],
+      [{"y":-0.5,"x":4.5,"h":2},"0,3",{"x":2.75,"h":2},"0,6"],
+      [{"y":-0.5,"x":5.75,"c":"#aaaaaa"},"0,2\n\n\n\n\n\n\n\n\ne0"],
+      [{"y":-0.75,"x":9.5,"c":"#cccccc","h":1.75},"0,4"],
+      [{"y":0.25,"x":7,"h":2.25},"0,9"],
+      [{"y":-0.75,"x":4.5,"h":2},"0,8",{"x":2.75,"h":2.25},"0,10"],
+      [{"y":-0.5,"x":5.75,"c":"#aaaaaa","h":1.25},"0,7",{"x":2.75,"c":"#cccccc","h":2},"0,11"],
+      [{"r":-10,"rx":5,"ry":4.5,"y":-3.25,"x":-2.5,"w":1.25,"h":2},"0,1"],
+      [{"y":1.25,"x":-2.5,"w":1.25,"h":2.5},"0,0"]
+    ]
+  }
+}
